@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1328AE21CC2E5E002026F9 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1328AC21CC2E5E002026F9 /* CustomMessageCell.swift */; };
+		7A1328AF21CC2E5E002026F9 /* CustomMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A1328AD21CC2E5E002026F9 /* CustomMessageCell.xib */; };
+		7A1328B321CEF3D2002026F9 /* recordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1328B221CEF3D2002026F9 /* recordsViewController.swift */; };
 		7A1F746B21AE110B005CCADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F746A21AE110B005CCADF /* AppDelegate.swift */; };
 		7A1F746D21AE110B005CCADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F746C21AE110B005CCADF /* ViewController.swift */; };
 		7A1F747021AE110B005CCADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F746E21AE110B005CCADF /* Main.storyboard */; };
 		7A1F747221AE110C005CCADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F747121AE110C005CCADF /* Assets.xcassets */; };
 		7A1F747521AE110C005CCADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F747321AE110C005CCADF /* LaunchScreen.storyboard */; };
+		7A44481821B6D349001F63B2 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A44481721B6D349001F63B2 /* ContentViewController.swift */; };
+		7A4C6F8F78CDD2D07D9F31FC /* Pods_PasswordManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D86C1E63DE23FC69E4C55BB /* Pods_PasswordManager.framework */; };
+		7AB48D6821D126B600498AF7 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB48D6721D126B600498AF7 /* EditViewController.swift */; };
+		7AB48D6A21D1CE0B00498AF7 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB48D6921D1CE0B00498AF7 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D86C1E63DE23FC69E4C55BB /* Pods_PasswordManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1328AC21CC2E5E002026F9 /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		7A1328AD21CC2E5E002026F9 /* CustomMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessageCell.xib; sourceTree = "<group>"; };
+		7A1328B221CEF3D2002026F9 /* recordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsViewController.swift; sourceTree = "<group>"; };
 		7A1F746721AE110B005CCADF /* PasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1F746A21AE110B005CCADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A1F746C21AE110B005CCADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,11 @@
 		7A1F747121AE110C005CCADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A1F747421AE110C005CCADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A1F747621AE110C005CCADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A44481721B6D349001F63B2 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		7AB48D6721D126B600498AF7 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		7AB48D6921D1CE0B00498AF7 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F3E16ABE3A02481E482198E9 /* Pods-PasswordManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordManager/Pods-PasswordManager.debug.xcconfig"; sourceTree = "<group>"; };
+		FB90A8090174D4B0D349510A /* Pods-PasswordManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordManager/Pods-PasswordManager.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4C6F8F78CDD2D07D9F31FC /* Pods_PasswordManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12F34150C79E67AF4F7B03EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D86C1E63DE23FC69E4C55BB /* Pods_PasswordManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A08915521B4B09900912807 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A1328A121CC2172002026F9 /* Custom Cell */,
+				7A1F746E21AE110B005CCADF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A08915621B4B0A900912807 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A08915721B4B0B700912807 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A1F746A21AE110B005CCADF /* AppDelegate.swift */,
+				7A1F746C21AE110B005CCADF /* ViewController.swift */,
+				7A44481721B6D349001F63B2 /* ContentViewController.swift */,
+				7A1328B221CEF3D2002026F9 /* recordsViewController.swift */,
+				7AB48D6721D126B600498AF7 /* EditViewController.swift */,
+				7AB48D6921D1CE0B00498AF7 /* AddViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A1328A121CC2172002026F9 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7A1328AC21CC2E5E002026F9 /* CustomMessageCell.swift */,
+				7A1328AD21CC2E5E002026F9 /* CustomMessageCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
 		7A1F745E21AE110B005CCADF = {
 			isa = PBXGroup;
 			children = (
 				7A1F746921AE110B005CCADF /* PasswordManager */,
 				7A1F746821AE110B005CCADF /* Products */,
+				D6BE2A3ABE2D70979EA28FCB /* Pods */,
+				12F34150C79E67AF4F7B03EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +119,23 @@
 		7A1F746921AE110B005CCADF /* PasswordManager */ = {
 			isa = PBXGroup;
 			children = (
-				7A1F746A21AE110B005CCADF /* AppDelegate.swift */,
-				7A1F746C21AE110B005CCADF /* ViewController.swift */,
-				7A1F746E21AE110B005CCADF /* Main.storyboard */,
+				7A08915721B4B0B700912807 /* Controller */,
+				7A08915621B4B0A900912807 /* Model */,
+				7A08915521B4B09900912807 /* View */,
 				7A1F747121AE110C005CCADF /* Assets.xcassets */,
 				7A1F747321AE110C005CCADF /* LaunchScreen.storyboard */,
 				7A1F747621AE110C005CCADF /* Info.plist */,
 			);
 			path = PasswordManager;
+			sourceTree = "<group>";
+		};
+		D6BE2A3ABE2D70979EA28FCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3E16ABE3A02481E482198E9 /* Pods-PasswordManager.debug.xcconfig */,
+				FB90A8090174D4B0D349510A /* Pods-PasswordManager.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A1F747921AE110C005CCADF /* Build configuration list for PBXNativeTarget "PasswordManager" */;
 			buildPhases = (
+				7CF2A9909824E70FD739089B /* [CP] Check Pods Manifest.lock */,
 				7A1F746321AE110B005CCADF /* Sources */,
 				7A1F746421AE110B005CCADF /* Frameworks */,
 				7A1F746521AE110B005CCADF /* Resources */,
+				E2AA2B812FFD1C10C9C42E4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +200,75 @@
 			files = (
 				7A1F747521AE110C005CCADF /* LaunchScreen.storyboard in Resources */,
 				7A1F747221AE110C005CCADF /* Assets.xcassets in Resources */,
+				7A1328AF21CC2E5E002026F9 /* CustomMessageCell.xib in Resources */,
 				7A1F747021AE110B005CCADF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7CF2A9909824E70FD739089B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AA2B812FFD1C10C9C42E4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PasswordManager/Pods-PasswordManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordManager/Pods-PasswordManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A1F746321AE110B005CCADF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1328B321CEF3D2002026F9 /* recordsViewController.swift in Sources */,
 				7A1F746D21AE110B005CCADF /* ViewController.swift in Sources */,
+				7AB48D6A21D1CE0B00498AF7 /* AddViewController.swift in Sources */,
+				7AB48D6821D126B600498AF7 /* EditViewController.swift in Sources */,
+				7A44481821B6D349001F63B2 /* ContentViewController.swift in Sources */,
+				7A1328AE21CC2E5E002026F9 /* CustomMessageCell.swift in Sources */,
 				7A1F746B21AE110B005CCADF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +413,12 @@
 		};
 		7A1F747A21AE110C005CCADF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E16ABE3A02481E482198E9 /* Pods-PasswordManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PasswordManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,16 +426,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zehao.PasswordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7A1F747B21AE110C005CCADF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB90A8090174D4B0D349510A /* Pods-PasswordManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PasswordManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,8 +447,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zehao.PasswordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
